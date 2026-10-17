@@ -4,3 +4,9 @@ __pycache__/
 audit_log.jsonl
 *.pyc
 .venv/
+.vscode/
+.idea/
+.DS_Store
+.claude/
+.cursor/
+*.log
