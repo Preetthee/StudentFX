@@ -1,0 +1,9 @@
+{
+  "_note": "MOCK DATA for demo only. Not real rates or fees.",
+  "mid_rates": {"USD-BDT": 122.0, "GBP-BDT": 155.0, "USD-EUR": 0.92, "USD-INR": 83.5},
+  "providers": [
+    {"name": "BankWire",   "flat_fee": 25.0, "pct_fee": 0.000, "fx_margin": 0.030, "hours": 48, "corridors": ["USD-BDT", "GBP-BDT", "USD-EUR", "USD-INR"]},
+    {"name": "FinTechPay", "flat_fee": 2.0,  "pct_fee": 0.005, "fx_margin": 0.008, "hours": 24, "corridors": ["USD-BDT", "GBP-BDT", "USD-EUR", "USD-INR"]},
+    {"name": "InstaSend",  "flat_fee": 6.0,  "pct_fee": 0.010, "fx_margin": 0.015, "hours": 1,  "corridors": ["USD-BDT", "USD-INR", "USD-EUR"]}
+  ]
+}

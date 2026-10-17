@@ -1,0 +1,17 @@
+[
+  {"amount": 18.50, "currency": "USD", "category": "food", "date": "2026-10-01"},
+  {"amount": 42.00, "currency": "USD", "category": "transport", "date": "2026-10-02"},
+  {"amount": 65.00, "currency": "GBP", "category": "housing", "date": "2026-10-03"},
+  {"amount": 12.75, "currency": "BDT", "category": "food", "date": "2026-10-04"},
+  {"amount": 24.90, "currency": "USD", "category": "study", "date": "2026-10-05"},
+  {"amount": 9.50, "currency": "GBP", "category": "transport", "date": "2026-10-06"},
+  {"amount": 850.00, "currency": "BDT", "category": "food", "date": "2026-10-07"},
+  {"amount": 31.00, "currency": "USD", "category": "housing", "date": "2026-10-08"},
+  {"amount": 22.40, "currency": "GBP", "category": "study", "date": "2026-10-09"},
+  {"amount": 16.00, "currency": "USD", "category": "food", "date": "2026-10-10"},
+  {"amount": 1200.00, "currency": "BDT", "category": "housing", "date": "2026-10-11"},
+  {"amount": 14.00, "currency": "GBP", "category": "food", "date": "2026-10-12"},
+  {"amount": 7.25, "currency": "USD", "category": "transport", "date": "2026-10-13"},
+  {"amount": 18.00, "currency": "GBP", "category": "housing", "date": "2026-10-14"},
+  {"amount": 500.00, "currency": "BDT", "category": "study", "date": "2026-10-15"}
+]
