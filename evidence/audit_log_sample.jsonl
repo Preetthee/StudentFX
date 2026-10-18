@@ -1,0 +1,31 @@
+{"ts": 1792303084.1480188, "action": "recommend_routes", "tier": "SUGGEST", "ok": true, "detail": {"amount": 1000, "corridor": "USD-BDT", "deadline_hours": 30}}
+{"ts": 1792303084.1485136, "action": "simulate_transfer", "tier": "EXECUTE_SANDBOX", "ok": true, "detail": {"tx_id": "6c6c53de", "provider": "FinTechPay", "amount": 1000, "status": "SIMULATED_SETTLED"}}
+{"ts": 1792303084.217459, "action": "agent_request_validated", "tier": "SUGGEST", "ok": true, "detail": {"tool": "recommend_routes"}}
+{"ts": 1792303084.2177906, "action": "agent_parse", "tier": "SUGGEST", "ok": true, "detail": {"tool": "recommend_routes"}}
+{"ts": 1792303084.2182171, "action": "recommend_routes", "tier": "SUGGEST", "ok": true, "detail": {"amount": 1000.0, "corridor": "USD-BDT", "deadline_hours": 24}}
+{"ts": 1792303084.2184556, "action": "agent_dispatch", "tier": "SUGGEST", "ok": true, "detail": {"tool": "recommend_routes"}}
+{"ts": 1792303084.2187161, "action": "agent_request_validated", "tier": "SUGGEST", "ok": true, "detail": {"tool": "budget_summary"}}
+{"ts": 1792303084.218902, "action": "agent_parse", "tier": "SUGGEST", "ok": true, "detail": {"tool": "budget_summary"}}
+{"ts": 1792303084.2268078, "action": "load_expenses", "tier": "SUGGEST", "ok": true, "detail": {"count": 15}}
+{"ts": 1792303084.2271633, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 18.5, "currency": "USD", "home": "USD"}}
+{"ts": 1792303084.2274795, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 42.0, "currency": "USD", "home": "USD"}}
+{"ts": 1792303084.2278342, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 65.0, "currency": "GBP", "home": "USD"}}
+{"ts": 1792303084.2281234, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 12.75, "currency": "BDT", "home": "USD"}}
+{"ts": 1792303084.2283916, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 24.9, "currency": "USD", "home": "USD"}}
+{"ts": 1792303084.2286108, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 9.5, "currency": "GBP", "home": "USD"}}
+{"ts": 1792303084.2288587, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 850.0, "currency": "BDT", "home": "USD"}}
+{"ts": 1792303084.2291422, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 31.0, "currency": "USD", "home": "USD"}}
+{"ts": 1792303084.229402, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 22.4, "currency": "GBP", "home": "USD"}}
+{"ts": 1792303084.2296305, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 16.0, "currency": "USD", "home": "USD"}}
+{"ts": 1792303084.229953, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 1200.0, "currency": "BDT", "home": "USD"}}
+{"ts": 1792303084.2301838, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 14.0, "currency": "GBP", "home": "USD"}}
+{"ts": 1792303084.230384, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 7.25, "currency": "USD", "home": "USD"}}
+{"ts": 1792303084.230616, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 18.0, "currency": "GBP", "home": "USD"}}
+{"ts": 1792303084.230839, "action": "to_home_currency", "tier": "SUGGEST", "ok": true, "detail": {"amount": 500.0, "currency": "BDT", "home": "USD"}}
+{"ts": 1792303084.2310297, "action": "budget_summary", "tier": "SUGGEST", "ok": true, "detail": {"home": "USD", "monthly_total": 324.43}}
+{"ts": 1792303084.2312577, "action": "agent_dispatch", "tier": "SUGGEST", "ok": true, "detail": {"tool": "budget_summary"}}
+{"ts": 1792303084.2315261, "action": "agent_tier_switch", "tier": "EXECUTE_SANDBOX", "ok": true, "detail": {"tier": "EXECUTE_SANDBOX"}}
+{"ts": 1792303084.2318454, "action": "agent_rejection", "tier": "EXECUTE_SANDBOX", "ok": false, "detail": "could not parse request without ANTHROPIC_API_KEY"}
+{"ts": 1792303084.300537, "action": "recommend_routes", "tier": "EXECUTE_SANDBOX", "ok": true, "detail": {"amount": 1000, "corridor": "USD-BDT", "deadline_hours": 24}}
+{"ts": 1792303084.300903, "action": "simulate_transfer", "tier": "EXECUTE_SANDBOX", "ok": false, "detail": "missing or wrong confirmation"}
+{"ts": 1792303084.3013613, "action": "simulate_transfer", "tier": "EXECUTE_SANDBOX", "ok": true, "detail": {"tx_id": "22eaa301", "provider": "FinTechPay", "amount": 1000, "status": "SIMULATED_SETTLED"}}
